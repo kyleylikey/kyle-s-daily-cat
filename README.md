@@ -1,3 +1,20 @@
+# Kyle-s-Daily-Cats
+This is a personal project built to help me learn and explore React.js. The app showcases daily pictures of my cats, with a simple, clean interface. It also includes an archive feature so you can look back on all the cuteness from previous days.
+
+Features
+- 🗓️ Daily cat photo display
+- 🗃️ Archive to browse previous posts
+- 💅 Simple and responsive design
+- 🧠 Built with learning in mind – minimal, readable code
+
+Tech Stack
+- React.js (with hooks and functional components)
+- CSS Bootstrap
+
+This project is both a learning exercise and a way to share a little joy from my feline friends. 🐱
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,15 +1,18 @@
 import React from 'react';
-import catPics from '../data/catPics';
+import catPics from './data/catPics';
+import LikeButton from './LikeButton'; // Assuming you have a LikeButton component
 
 function DailyCat() {
   const today = new Date().toDateString();
-  const todayPic = catPics[0]; // replace with logic to show actual “today” pic
+  const index = new Date().getDate() % catPics.length;
+  const todayPic = catPics[index];
 
   return (
-    <div>
+    <div className="daily-cat">
       <h2>{today}</h2>
-      <img src={todayPic.image} alt="Today's cat" />
+      <img id="post-img" src={todayPic.image} alt="Today's cat" />
       <p>{todayPic.caption}</p>
+      <LikeButton />
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import catPics from '../data/catPics';
+import catPics from './data/catPics';
 
 function Archive() {
   return (
